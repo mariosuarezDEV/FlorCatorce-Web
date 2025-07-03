@@ -1,10 +1,10 @@
 # Etapa 1: Construcción de la aplicación (si necesitas construir dentro del contenedor)
-# FROM node:lts-alpine as builder
-# WORKDIR /app
-# COPY package*.json ./
-# RUN npm ci
-# COPY . .
-# RUN npm run build
+FROM node:lts-alpine as builder
+WORKDIR /app
+COPY package*.json ./
+RUN npm ci
+COPY . .
+RUN npm run build
 
 # Etapa 2: Servidor de producción
 FROM nginx:stable-alpine
