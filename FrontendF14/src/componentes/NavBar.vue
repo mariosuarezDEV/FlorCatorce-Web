@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top shadow">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Flor Catorce</a>
       <button

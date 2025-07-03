@@ -2,10 +2,10 @@
 </script>
 
 <template>
-  <div id="carouselExample" class="carousel slide carousel-fade">
+  <div id="carouselExample" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="../assets/BigCrunchQuesadilla.png" class="d-block w-100" alt="...">
+        <img src="../assets/ToastSalmon.png" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
         <img src="../assets/BrownieHelado.png" class="d-block w-100" alt="...">
