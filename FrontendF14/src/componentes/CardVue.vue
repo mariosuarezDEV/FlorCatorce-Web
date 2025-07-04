@@ -41,4 +41,11 @@ export default {
 
 <style scoped>
 
+.card:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
 </style>
