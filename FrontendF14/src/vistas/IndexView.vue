@@ -1,5 +1,5 @@
 <script>
-import Card from '../componentes/ButtonVue.vue'
+/* import Card from '../componentes/ButtonVue.vue'
 import NavBar from '@/componentes/NavBar.vue'
 export default {
   data: () => ({
@@ -33,7 +33,7 @@ export default {
     Card,
     NavBar
   },
-}
+} */
 </script>
 
 <template>

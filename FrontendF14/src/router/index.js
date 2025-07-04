@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IndexView from '../vistas/IndexView.vue'
-import HomeView from '@/vistas/HomeView.vue'
+import SingleView from '@/vistas/SingleView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: SingleView,
     },
     {
       path: '/dev',

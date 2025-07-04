@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 // Estilos globales
-import './assets/index.css'
+import 'animate.css'
 </script>
 
 <template>

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+$body-bg: #d7cfc8;
+$primary: #443627;
+$secondary: #A08963;
+$dropdown-bg: #1d170f;
+$dropdown-link-hover-bg: #ad9373;
+$headings-font-family: 'Playfair Display', serif;
+// Color de headings en el tema oscuro
+$headings-color-dark: #f8f5f2;
+// Color de headings en el tema claro
+$headings-color: #443627;
+@import "../../node_modules/bootstrap/scss/bootstrap";
