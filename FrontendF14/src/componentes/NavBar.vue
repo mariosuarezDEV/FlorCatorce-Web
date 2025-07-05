@@ -1,4 +1,5 @@
-<script></script>
+<script>
+</script>
 
 <template>
   <nav class="navbar navbar-expand-lg bg-primary sticky-top shadow-sm" data-bs-theme="dark">
@@ -38,7 +39,8 @@
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Plick</a></li>
-              <li><a class="dropdown-item" href="#">Uber Eats</a></li>
+              <li><a class="dropdown-item" href="#">Uber Eats Centro</a></li>
+              <li><a class="dropdown-item" href="#">Uber Eats Araucarias</a></li>
             </ul>
           </li>
         </ul>
