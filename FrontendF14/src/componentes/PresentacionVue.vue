@@ -21,7 +21,7 @@ export default {
         <h3 class="fs-1">El aroma que despierta tus sentidos</h3>
         <p class="preesentacion">Nuestro espacio está diseñado para que te sientas como en casa, rodeado de un ambiente rústico, cultural y natural.</p>
         <div class="row g-3 text-center">
-          <a href="#" class="btn btn-primary p-2"><i class="fa-solid fa-map-location-dot"></i> Visita nuestras sucursales</a>
+          <a href="#sucursales" class="btn btn-primary p-2"><i class="fa-solid fa-map-location-dot"></i> Visita nuestras sucursales</a>
           <a href="#productos" class="btn btn-outline-primary p-2"><i class="fa-solid fa-fire"></i> Productos destacados</a>
         </div>
     </div>
