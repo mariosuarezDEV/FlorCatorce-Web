@@ -3,6 +3,7 @@ import NavBar from '@/componentes/NavBar.vue'
 import PresentacionVue from '@/componentes/PresentacionVue.vue'
 import ProductosVue from '@/componentes/ProductosVue.vue'
 import SucursalesVue from '@/componentes/SucursalesVue.vue'
+import DeliveryGridVue from '@/componentes/DeliveryGridVue.vue'
 
 export default {
   name: 'SingleView',
@@ -15,6 +16,7 @@ export default {
     PresentacionVue,
     ProductosVue,
     SucursalesVue,
+    DeliveryGridVue
   },
 }
 </script>
@@ -25,7 +27,7 @@ export default {
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <PresentacionVue/>
+        <PresentacionVue />
       </div>
     </div>
   </div>
@@ -38,12 +40,17 @@ export default {
       </div>
     </div>
   </div>
-  <div class="min-vh-100">
-    <div class="container" id="sucursales">
-      <div class="row">
-        <div class="col-12 mt-5 pt-5">
-            <SucursalesVue />
-        </div>
+  <div class="container" id="sucursales">
+    <div class="row">
+      <div class="col-12 mt-5 pt-5 mb-5 pb-5">
+        <SucursalesVue />
+      </div>
+    </div>
+  </div>
+  <div class="container" id="sucursales">
+    <div class="row">
+      <div class="col-12 mb-5 pb-5">
+        <DeliveryGridVue />
       </div>
     </div>
   </div>

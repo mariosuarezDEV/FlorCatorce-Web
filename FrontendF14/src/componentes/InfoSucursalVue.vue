@@ -9,14 +9,10 @@ export default {
       type: String,
       required: true
     },
-    descripcion: {
+    direccion: {
       type: String,
       default: "Esta es una tarjeta más amplia con texto de apoyo a continuación como introducción natural a contenido adicional."
     },
-    ultimaActualizacion: {
-      type: String,
-      default: "Hace 3 minutos"
-    }
   }
 }
 </script>
@@ -36,7 +32,7 @@ export default {
       <div class="col-md-8 d-flex flex-column">
         <div class="card-body">
           <h5 class="card-title fw-bold fs-3">{{nombre}}</h5>
-          <p class="card-text text-muted">{{descripcion}}</p>
+          <p class="card-text text-muted"><strong>Dirección</strong>: {{direccion}}</p>
           <div class="">
             <a href="http://" class="card-text fs-4 btn btn-secondary m-2"><i class="fa-brands fa-whatsapp"></i></a>
             <a href="http://" class="card-text fs-4 btn btn-secondary m-2"><i class="fa-solid fa-phone"></i></a>
